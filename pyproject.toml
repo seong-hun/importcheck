@@ -1,0 +1,13 @@
+[project]
+name = "importcheck"
+version = "0.1.0"
+description = "CLI tool to check Python import dependencies in .py files"
+authors = [{ name="Seong-hun Kim", email="kshoon92@gmail.com" }]
+dependencies = []
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["importcheck"]
+
+[project.scripts]
+importcheck = "importcheck.cli:main"
