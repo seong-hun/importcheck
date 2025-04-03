@@ -1,4 +1,4 @@
-# 🧪 importcheck
+# 🧪 installcheck
 
 **Check which Python modules your project actually needs – line by line.**
 
@@ -9,7 +9,7 @@
 
 ## 🚀 What is this?
 
-`importcheck` is a CLI tool that scans your Python codebase,  
+`installcheck` is a CLI tool that scans your Python codebase,  
 **parses every `import` statement**, and **checks whether those modules are actually available** in your environment.
 
 It helps you:
@@ -23,14 +23,14 @@ It helps you:
 ## 📦 Installation
 
 ```bash
-pip install importcheck
+pip install installcheck
 ```
 
 Or for development:
 
 ```bash
-git clone https://github.com/your-username/importcheck.git
-cd importcheck
+git clone https://github.com/seong-hun/installcheck.git
+cd installcheck
 pip install -e .
 ```
 
@@ -39,8 +39,8 @@ pip install -e .
 ## ⚙️  Usage
 
 ```bash
-importcheck ./your_project              # summary mode
-importcheck ./your_project --verbose   # line-by-line failure details
+installcheck ./your_project              # summary mode
+installcheck ./your_project --verbose   # line-by-line failure details
 ```
 
 ---

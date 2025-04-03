@@ -1,7 +1,7 @@
 import argparse
 
-from importcheck.checker import run_line_level_import_checks
-from importcheck.reporter import print_summary_report, print_verbose_report
+from installcheck.checker import run_line_level_import_checks
+from installcheck.reporter import print_summary_report, print_verbose_report
 
 
 def main():

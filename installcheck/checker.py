@@ -1,7 +1,7 @@
 import importlib
 from multiprocessing import Pool, cpu_count
 
-from importcheck.utils import extract_import_statements, find_py_files
+from installcheck.utils import extract_import_statements, find_py_files
 
 
 def test_single_import(item):

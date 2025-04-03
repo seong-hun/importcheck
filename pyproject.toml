@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "importcheck"
+name = "installcheck"
 version = "0.1.0"
 description = "CLI tool to check Python import dependencies in .py files"
 readme = "README.md"
@@ -28,11 +28,11 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/seong-hun/importcheck"
-"Bug Tracker" = "https://github.com/seong-hun/importcheck/issues"
+"Homepage" = "https://github.com/seong-hun/installcheck"
+"Bug Tracker" = "https://github.com/seong-hun/installcheck/issues"
 
 [project.scripts]
-importcheck = "importcheck.cli:main"
+installcheck = "installcheck.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
