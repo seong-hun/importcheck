@@ -34,7 +34,7 @@ cd importcheck
 pip install -e .
 ```
 
-⸻
+---
 
 ## ⚙️  Usage
 
@@ -43,7 +43,7 @@ importcheck ./your_project              # summary mode
 importcheck ./your_project --verbose   # line-by-line failure details
 ```
 
-⸻
+---
 
 ## 🧪 Example Output
 
@@ -69,7 +69,7 @@ Total failed imports: 2 in 1 files
    pip install torch non_existent_lib
 ```
 
-⸻
+---
 
 ## ✨ Features
 
@@ -82,20 +82,20 @@ Total failed imports: 2 in 1 files
 	•	Which modules are missing (pip install ...)
 	•	✅ Multiprocessing for speed ⚡
 
-⸻
+---
 
 ## 💡 Why?
 
 Because ModuleNotFoundError should never be a surprise in CI.
 And because import foo might look innocent… until it silently fails 😅
 
-⸻
+---
 
 ## 👩‍💻 Contributing
 
 Pull requests welcome! Feel free to open issues or suggest improvements.
 
-⸻
+---
 
 ## 📄 License
 
