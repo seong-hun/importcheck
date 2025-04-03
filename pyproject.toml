@@ -1,11 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "importcheck"
 version = "0.1.0"
 description = "CLI tool to check Python import dependencies in .py files"
-authors = [{ name="Seong-hun Kim", email="kshoon92@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = []
+license = {text = "MIT"}
+authors = [
+    { name = "Seong-hun Kim", email = "kshoon92@gmail.com" }
+]
+keywords = ["import", "dependency", "checker", "python", "cli", "lint"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/seong-hun/importcheck"
+"Bug Tracker" = "https://github.com/seong-hun/importcheck/issues"
 
 [project.scripts]
 importcheck = "importcheck.cli:main"
